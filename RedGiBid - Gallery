@@ -127,6 +127,11 @@ nav{
     border-radius: 2px;
     max-width: 200px;
 }
+.sis{
+    border: solid white 1px;
+    border-radius: 2px;
+    max-width: 450px;
+}
 body{
     background-image:url('ims/cat-4894153_960_720.jpg');
     background-attachment:fixed;
