@@ -33,3 +33,79 @@
     </div>
 </body>
 </html>
+<!--Css code-->
+<style>
+.lin{
+    margin-left: 20%;
+}
+hr{
+    margin-left: 20px;
+}
+.vert{
+    border-left: thick solid #000000;
+  }
+
+.hov:hover{
+    color:red;
+}
+#ims{
+    max-width: 100px;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}
+.whited{
+    color:white;
+    text-decoration: underline;
+}
+.black{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.blacked{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.di{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.di{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+.photo{
+    max-width: 400px;
+    margin-top: 27px;
+    margin-left: 20px;
+    border: rgb(250, 245, 222) solid 1px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+body{
+    background-image:url('https://redgibid.files.wordpress.com/2022/10/cars-4032928_1920.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.textuno{
+    color:rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 27px;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 7px;
+    border: rgb(105, 105, 105) solid 1px;
+    border-radius: 5px;
+}
+</style>
