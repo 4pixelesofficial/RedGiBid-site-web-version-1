@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDGIBID - GALERY</title>
+    <link rel="stylesheet" href="galery.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <img id="ims" src="imgINDEX/REDGIBID.png" alt="Logotipo de redgibid">
+            <a class="lin white hov" href="/category/incate.html">CATEGORY</a><a class="lin white hov" href="/indes.html">HOME</a><a class="lin white hov" href="help.html">HELP</a>
+        </nav>
+    </div>
+    <div class="c">
+        <h2><a class="whited" href="#">Animals:</a></h2>
+        <img class="imgsl" src="https://redgibid.files.wordpress.com/2022/10/pexels-pixabay-247502.jpg" alt="Fauna Salvaje León">
+        <img class="imgslh sd" src="https://redgibid.files.wordpress.com/2022/10/pexels-couleur-2317904.jpg" alt="Fauna Pájaro">
+    </div>
+    <div class="c">
+        <h2><a class="whited" href="#">Plants:</a></h2>
+
+        <img class="imgslks sd" src="https://redgibid.files.wordpress.com/2022/10/pexels-anthony-133472.jpg" alt="Flora Una Flor">
+        <img class="imgslhs sd" src="https://redgibid.files.wordpress.com/2022/10/pexels-mitya-parker-13879917.jpg" alt="Flora Una planta saliendo">
+    </div>
+    <div class="c">
+        <h2><a class="whited" href="#">Music;</a></h2>
+        <img class="siez" src="https://redgibid.files.wordpress.com/2022/10/pexels-engin-akyurt-13668083.jpg" alt="Piano">
+        <img class="sis" src="https://redgibid.files.wordpress.com/2022/10/pexels-dmitry-demidov-3783471.jpg" alt="Microfono ">
+    </div>
+    <div class="c">
+        <h2><a class="whited" href="as.html">Astronomy:</a></h2>
+        <img class="imn" src="https://redgibid.files.wordpress.com/2022/10/helice.jpeg" alt="">
+        <img class="imn" src="https://redgibid.files.wordpress.com/2022/10/veil-nebula.jpeg" alt="">
+    </div>
+</body>
+</html>
+<!--Css-->
+<style>
+#ims{
+    max-width: 100px;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}
+.lin{
+    margin-left: 20%;
+}
+.sd{
+    margin-left: 10px;
+}
+h2{
+    color:white
+}
+.c{
+    text-align:center;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
+.hov:hover{
+    color:red;
+}
+.whited{
+    color:white;
+    text-decoration: underline;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+.imgsl{
+    max-width: 386px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imgslk{
+    max-width: 240px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imgslh{
+    max-width: 450px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imgsls{
+    max-width: 400px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imgslks{
+    max-width: 200px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imgslhs{
+    max-width: 226px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imn{
+    max-width: 389px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.imns{
+    max-width: 260px;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.siez{
+    border: solid white 1px;
+    border-radius: 2px;
+    max-width: 400px;
+}
+.sie{
+    border: solid white 1px;
+    border-radius: 2px;
+    max-width: 200px;
+}
+body{
+    background-image:url('ims/cat-4894153_960_720.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
