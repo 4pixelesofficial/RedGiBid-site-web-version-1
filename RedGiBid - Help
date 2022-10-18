@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDGIBID - HELP</title>
+    <!--FRONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+<!---->
+    <link rel="stylesheet" href="help.css">
+</head>
+<body>
+    <div>
+        <nav><img id="ims" src="imgINDEX/REDGIBID.png" alt="Logotipo de redgibid"><a class="lin white hov" href="/category/incate.html">CATEGORY</a><a class="lin white hov" href="galery.html">GALLERY</a><a class="lin white hov" href="/indes.html">HOME</a>
+    </nav>
+    <div class="as">
+        <img class="inl ivs" src="https://redgibid.files.wordpress.com/2022/10/logoredgibid.png" alt=""><p class="textsa te">Alejandro Duque, borns in Colombia with his computer where he can study different subjects. Create more knowlodge about your subjects favorite as are:<br>- Progamming.<br>- Astronomy.<br>- Photography.<br>- Magic & Cardistry.<br>- Production and post-production.<br>- Psicology.</p>
+    </div>
+    <div><p class="ti te">He is the owner of RedgiBid, RedgiBid is a company that helps people, psychologically, coaches, teachers, personal growth, and more topics. Allowing you to get a lot of knowledge, friends and respect for all that this wonderful company can give.<br> In addition to the above, you can have friends in the forums and communities on discord, facebook and other media.
+    </p>
+    <p class="ti te">How much information is free? Everything is free for the community itself, but you can donate money to the community and help us with the foundations you need, books and resources for those in need.</p>
+    <p class="ti te">We have different networks that can help you talk to us.<br>In mass media we have: <a class="whited" href="https://www.instagram.com/redgibid.co/">IG: RedGiBid</a> - <a class="whited" href="https://www.youtube.com/channel/UCzNPFYWfnfq87yiFU8j3XGA">YT: RedGiBid</a> - <a class="whited" href="https://discord.gg/6YwWxvAdwN">DS: RedGiBid</a></p>
+    </div>
+</div>
+<div>
+    <div id="foot">
+        <p class="tes">Copyright Images <a class="white hov" href="https://pixabay.com/photos/search/?colors=black&manual_search=1&order=ec&orientation=horizontal&pagi=2">Pixabay.com</a><br>Copyright Images <a class="white hov" href="https://www.instagram.com/redgibid/">RedGiBid</a></p>
+
+        <p class="tes"><a class="white" href="/category/incate.html"> Category:</a><br><a class="white" href="as.html">Astronomy.</a><br><a class="white" href="#">Biology</a><br><a class="white" href="#">Music.</a><br><a class="white" href="#">Programming.</a><br><a class="white" href="#">Photography.</a></p>
+        <p class="tes"><a class="white" href="#">Philosophy.</a><br><a class="white" href="#">Mathematics.</a><br><a class="white" href="#">Chemistry.</a><br><a class="white" href="#">Psicology.</a><br><a class="white" href="#">Sports.</a></p>
+
+        <p class="tes"><a class="white" href="/indes.html">Home</a><br><a class="white" href="galery.html">Gallery</a><br><a class="white" href="/glo/glosario.html">Glossary</a></p>
+</div>
+</div>
+</body>
+</html>
+<style>
+.hov:hover{
+    color:red;
+}
+.ivs {
+    display:inline-block;margin-right:10%;
+} 
+.textsa {
+    display:inline-block;
+} 
+.lin{
+    margin-left: 20%;
+}
+.tesd {
+    margin-left: auto;
+}
+#ims{
+    max-width: 100px;
+}
+.tes {
+    margin-left: 10%;
+    flex: 0 0 20px;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}
+.whited{
+    color:white;
+    text-decoration: underline;
+}
+.black{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.blacked{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.di{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+.inl{
+    max-width: 340px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.te{
+    color:white;
+    font-family: 'Zilla Slab', serif;
+    text-shadow:5px 5px 5px black;
+}
+.ti{
+    margin-left: 16%;
+    margin-right: 20px;
+    font-family: 'Zilla Slab', serif;
+    text-shadow:6px 1px 6px black;
+}
+.as{
+    display: flex;
+    justify-content: flex-start;
+}
+body{
+    background-image:url('https://redgibid.files.wordpress.com/2022/10/hd-wallpaper-2508733_1920.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+#foot{
+    color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(0, 0, 0, 0.253);
+    padding-bottom: 60px;
+    border-top: 1px rgba(0, 0, 0, 0.527) solid;
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+</style>
