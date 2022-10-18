@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDGIBID - ASTRONOMY</title>
+    <!--FRONT ABOUT THE NAV-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!---->
+    <!--FRONT ABOUT THE BODY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu&display=swap" rel="stylesheet">
+    <!---->
+    <link rel="stylesheet" href="as.css">
+</head>
+<body>
+    <div>
+        <nav><img id="ims" src="imgINDEX/REDGIBID.png" alt="Logotipo de redgibid"><a class="lin white hov" href="/indes.html">HOME</a><a class="lin white hov" href="#">CATEGORY</a><a class="lin white hov" href="galery.html">GALLERY</a><a class="lin white hov" href="help.html">HELP</a>
+    </nav>
+    </div>
+    <div class="di">
+        <img class="photo" src="https://redgibid.files.wordpress.com/2022/10/veil-nebula.jpeg" alt="VEIL NEBULA photo"><p class="textuno">Name: Veil Nebula. <br>Data: Is an supernova remnant (SNR) in the constellation Cygnus. In a range 1200 to 5800 llight-years(ly) away from the heart.<br>With an apparent magnitude of 7.0 in the sky.<br><br>Hubble's analysis of the nebula's emissions indicates the presence of oxygen, sulfur, and hydrogen. <a class="whited" href="https://en.wikipedia.org/wiki/Veil_Nebula">More information here.</a></p>
+    </div>
+    <div class="di"><p class="textuno">Name: M101 Pinwheel Galaxy. <br>Data: Is an spiral galaxy 21 millon ly away from heart in the constellation Ursa Major. <br>With an apparent magnitude of 7.9 in the sky.<br><br>M101 is a large galaxy with a diameter of 170,000 ly. M101 has around a trillion of stars. M101 has a high population of H II regions (Hydrogen regions) ionized by the youngs and hots stars,it has approximated  1,264 H II regions.<br><br><a class="whited" href="https://en.wikipedia.org/wiki/Pinwheel_Galaxy">More information here.</a></p><img class="photo" src="https://redgibid.files.wordpress.com/2022/10/m101-pinwheel-galaxy.jpeg" alt="M101 Pinwheel Galaxy">
+    </div>
+    <div class="di"><img class="photo" src="https://redgibid.files.wordpress.com/2022/10/helice.jpeg" alt="Helix Nebula"><p class="textuno">Name: Helix Nebula.<br>Data: Is a Planetary Nebula(PN) located in the constellation Aquarius, is one of the closest to the eart<br><br>Helix nebula looks like a cat's eye, and with a central star (CS) is to become white dwarf star with so energetic, that provokes the expelled florence brilliant of the same. <a class="whited" href="https://en.wikipedia.org/wiki/Helix_Nebula">More information here.</a></p>
+    </div>
+</div>
+    
+</body>
+</html>
+<!--Css-->
+<style>
+.hov:hover{
+    color:red;
+}
+#ims{
+    max-width: 100px;
+}
+.di{
+    display: flex;
+    flex-direction: row;
+}
+.lin{
+    margin-left: 15%;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}
+.whited{
+    color:white;
+    text-decoration: underline;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-image:url('imgINDEX/VIA\ LACTE.jpeg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.photo{
+    max-width: 400px;
+    margin-top: 27px;
+    margin-left: 20px;
+    border: rgb(250, 245, 222) solid 1px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.textuno{
+    color:white;
+    margin-left: 20px;
+    margin-top: 27px;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 7px;
+    border: rgb(105, 105, 105) solid 1px;
+    border-radius: 5px;
+}
+</style>
